@@ -1,0 +1,120 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: #040D12;
+    font-size: medium;
+
+}
+nav{
+    background-color: #183D3D;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    border-bottom: #040D12;
+    font-family: 'Lora', serif;
+    color:#93B1A6;
+    font-size: small;
+}
+a{
+    color: #183D3D;
+    text-decoration: none;
+}
+a:hover{
+    color: #040D12
+}
+#contact {
+    color: #93B1A6;
+    padding: 5px;
+    text-decoration: none;
+}
+  
+#contact:hover {
+    color: #5C8374;
+}
+footer{
+    background-color: #183D3D;
+    border-top: solid medium #93B1A6;
+    display: flex;
+    justify-content: center; 
+}
+#footer{
+    color: #93B1A6;
+    padding: 5px;
+    text-decoration: none;
+}
+#footer:hover{
+    color: #5C8374;
+}
+.splash{
+    background-color: #5C8374;
+    padding: 100px 0 0 0;
+}
+.content{
+    background-color: #93B1A6;
+}
+hr{
+    border-top: dotted #183D3D 12px;
+    border-bottom: none;
+    width: 30%;
+}
+#onam {
+    border: 10px dotted #183D3D;
+  }
+ .card{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+ }
+ .container:hover{
+    box-shadow: 0 8px 16px 0 #040D12;
+ }
+ .container{
+    padding: 2px 10px;
+    background-color: #9ab5ab;
+    border-color: #183D3D;
+    outline-color: #5C8374;
+    box-shadow: 0 4px 8px 0 #040D12;
+    transition: .3s;
+    width: 93%;
+    place-items: center;
+ }
+ ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ dl{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+ }
+ dt{
+    width: 50%;
+ }
+ dd{
+    margin-left: 50px;
+ }
+ #skillList{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ }
+#skillList:dd{
+    align-items: center;
+}
+#skillList:dt{
+    width: 50%;
+
+}
+.main-col{
+display: grid;
+grid:1fr;
+place-items: center;
+justify-content:center;
+}
+input{
+    text-align: center;
+}
